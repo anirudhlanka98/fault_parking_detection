@@ -125,7 +125,10 @@ public class MainActivity extends AppCompatActivity {
             progressDialog.setTitle("Uploading...");
             progressDialog.show();
 
-            StorageReference ref = storageReference.child(UUID.randomUUID().toString());
+            String name = "image";
+
+            //StorageReference ref = storageReference.child(UUID.randomUUID().toString());
+            StorageReference ref = storageReference.child(name);
             ref.putFile(filePath)
                     .addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
                         @Override
