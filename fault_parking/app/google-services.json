@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "638157712535",
+    "firebase_url": "https://fault-detect.firebaseio.com",
+    "project_id": "fault-detect",
+    "storage_bucket": "fault-detect.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:638157712535:android:bf974723d41bee6d",
+        "android_client_info": {
+          "package_name": "com.example.anirudhlanka.fault_parking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "638157712535-71bpi3s51ekjac9oka29r4qcdnvjkcjg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBK_wEeIcQvO8bccGELFawSEjL56b09QIw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
